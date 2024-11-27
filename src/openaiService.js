@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_KEY = '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'; // Replace with your actual OpenAI API key
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 
 const openai = axios.create({
     baseURL: 'https://api.openai.com/v1',
