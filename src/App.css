@@ -1,38 +1,96 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Dark text */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #ffffff; /* White background for navbar */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar h2 {
+  display: inline;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.examples {
+  margin: 20px auto;
+  max-width: 800px; /* Centering examples section */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: #333; /* Darker color for headings */
 }
+
+pre {
+  background-color: #f4f4f4; /* Light gray background for code blocks */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* src/App.css */
+
+.chat-container {
+  max-height: 400px; /* Limit height of chat container */
+  overflow-y: auto; /* Enable scrolling */
+  border: 1px solid #ccc; /* Border around chat area */
+  padding: 10px;
+  background-color: #fff; /* White background for chat */
+}
+
+.message {
+  margin-bottom: 10px;
+  text-align: left; /* Align all messages to the left */
+}
+
+strong {
+  color: #007bff; /* Color for question and answer labels */
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #f1f2f4; /* Button color */
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: black; 
+  color:white;
+} */
