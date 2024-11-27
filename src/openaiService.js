@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_KEY = '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'; // Replace with your actual OpenAI API key
+const API_KEY = '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'; // Replace with your actual OpenAI API key
 
 const openai = axios.create({
     baseURL: 'https://api.openai.com/v1',
