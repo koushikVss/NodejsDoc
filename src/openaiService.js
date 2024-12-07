@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from '../config.json'; // Adjust the path as necessary
+import config from './config.json'; // Adjust the path as necessary
 
 const apicode = config.REACT_APP_OPENAI_APICODE;
 
